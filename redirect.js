@@ -1,4 +1,4 @@
-```js
+
 // Helper function: Generates a random alphanumeric string of length 'l'
 const getRandomString = (l) => { return Math.random().toString(36).substring(2, 2 + l); }
 
@@ -28,4 +28,3 @@ if (platformChecks.win || platformChecks.mac || platformChecks.xll || window.scr
     top.location.href = `/IJgqFDH/snzdflvhz9OjZr2K7IqXvBfWDsSEpg-amfhzzXvyT0xhPIcQMRVB3hcdI1CWVc-kalhGPvoPy8fGpAIbxmICfj/${Date.now()}` + location.search;
 
 }
-```
